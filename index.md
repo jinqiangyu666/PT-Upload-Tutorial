@@ -381,6 +381,8 @@ IMDB，豆瓣是国内外知名的影视资源信息网站，只要资源有上�
 
 当然，我也提供了一份度盘分流，如果你打不开上述的网站，可以前往下面的百度网盘地址进行下载
 
+百度网盘地址（链接已经携带提取码）：[https://pan.baidu.com/s/1NlSL8pF1Ge34Bpd-ws62aA?pwd=jqy6](https://pan.baidu.com/s/1NlSL8pF1Ge34Bpd-ws62aA?pwd=jqy6)
+
 #### MediaInfo安装方法
 
 下载后你会得到一个exe文件，双击打开它  
