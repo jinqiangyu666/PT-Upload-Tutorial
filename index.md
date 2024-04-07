@@ -7,7 +7,7 @@
 > Github项目地址：[https://github.com/jinqiangyu666/PT-Upload-Tutorial](https://github.com/jinqiangyu666/PT-Upload-Tutorial)  
 > Gitee项目地址：[https://gitee.com/jinqiangyu666/pt-upload-tutorial](https://gitee.com/jinqiangyu666/pt-upload-tutorial)  
 
-本片教程为保姆喂饭系列第一期，这个系列主打以图文贴合实际，手把手的方式，辅以一些示例来帮助萌新学到一个实用的技能，**不会**涉及的过于深入，基本都是较为常用的知识点（进阶知识/冷门知识请辅以本教程名称进行搜素，***你就不能去bing一下吗？***），并且系列均为长篇教程，适合萌新们慢慢食用
+本篇教程为保姆喂饭系列第一期，这个系列主打以图文贴合实际，手把手的方式，辅以一些示例来帮助萌新学到一个实用的技能，**不会**涉及的过于深入，基本都是较为常用的知识点（进阶知识/冷门知识请辅以本教程名称进行搜素，***你就不能去bing一下吗？***），并且系列均为长篇教程，适合萌新们慢慢食用
 
 本教程所有软件**均处于**Windows环境，并且**只考虑**Windows情况下的制作流程，其他系统请自行搜素
 
