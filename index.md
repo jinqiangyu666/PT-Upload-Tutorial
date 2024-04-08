@@ -436,8 +436,8 @@ IMDB，豆瓣是国内外知名的影视资源信息网站，只要资源有上�
 ![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图3/成品有码.png)  
 现在回到qBittorrent，将设置里面的 `私有 torrent （不会在DHT网络上分发）` 选项勾选上，然后将刚刚复制的Tracker URL粘贴到字段内的 `Tracker URL:` 文本框内，再次确认一遍路径是否正确后就可以点击最底部的 `制作 Torrent` 按钮了  
 ![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图4/成品有码.png)  
-注意！如果你的qBittorrent内libtorrent版本大于等于2.0，则还需要将设置内的 `Torrent 格式` 设置成V1再点击 `制作 Torrent` 按钮
-![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图5/成品无码.png)
+注意！如果你的qBittorrent内libtorrent版本大于等于2.0，则还需要将设置内的 `Torrent 格式` 设置成V1再点击 `制作 Torrent` 按钮  
+![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图5/成品无码.png)  
 在新弹出的窗口中选择自己生成的Torrent文件存储的位置，然后就可以点击保存按钮了  
 ![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图6/成品无码.png)  
 之后等待底部的绿色进度条走完，弹出窗口后，点击确定按钮，就能在上面的位置找到种子文件了  
