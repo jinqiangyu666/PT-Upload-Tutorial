@@ -239,7 +239,7 @@ Info信息在影视类资源里面是必须的（游戏，软件等其他类别�
 - BDInfo  
 ![种子BDInfo介绍示例](pic/种子BDInfo介绍示例/成品有码.png)  
 
-每个站点要求Info信息填写的地方各不相同，比如有在简介中以quote标签包起来的，隐藏标签 `[hide][/hide]` 包起来的，也有在种子发布页的Mediainfo栏中填写的（这个栏其实MediaInfo和BDInfo都可以填写），具体要求可以看站点相关的规则
+每个站点要求Info信息填写的地方各不相同，比如有在简介中以quote标签包起来的，MeidaInfo/BDInfo标签 `[mediainfo][/mediainfo]` `[hide=mediainfo][/hide]` `[hide=BDInfo][/hide]` 包起来的，也有在种子发布页的Mediainfo栏中填写的（这个栏其实MediaInfo和BDInfo都可以填写），具体要求可以看站点相关的规则
 
 一般来说，种子的各种质量信息都是从Info信息中提取出来后填写的，比如分辨率，编码，音频，字幕等，详细的提取过程将会在发种实践章节中介绍，这个章节仅用图片对Info信息的常用部分做一个简单的介绍
 
@@ -436,10 +436,12 @@ IMDB，豆瓣是国内外知名的影视资源信息网站，只要资源有上�
 ![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图3/成品有码.png)  
 现在回到qBittorrent，将设置里面的 `私有 torrent （不会在DHT网络上分发）` 选项勾选上，然后将刚刚复制的Tracker URL粘贴到字段内的 `Tracker URL:` 文本框内，再次确认一遍路径是否正确后就可以点击最底部的 `制作 Torrent` 按钮了  
 ![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图4/成品有码.png)  
+注意！如果你的qBittorrent内libtorrent版本大于等于2.0，则还需要将设置内的 `Torrent 格式` 设置成V1再点击 `制作 Torrent` 按钮
+![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图5/成品无码.png)
 在新弹出的窗口中选择自己生成的Torrent文件存储的位置，然后就可以点击保存按钮了  
-![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图5/成品无码.png)  
-之后等待底部的绿色进度条走完，弹出窗口后，点击确定按钮，就能在上面的位置找到种子文件了  
 ![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图6/成品无码.png)  
+之后等待底部的绿色进度条走完，弹出窗口后，点击确定按钮，就能在上面的位置找到种子文件了  
+![qBittorrent制作种子示例](pic/qBittorrent制作种子示例/图7/成品无码.png)  
 到此，种子就制作完毕了，你就可以在发布页面的种子信息表格中的种子文件一栏中，选择刚刚制作好的种子文件并上传了  
 
 ### 3.5 填写主标题
